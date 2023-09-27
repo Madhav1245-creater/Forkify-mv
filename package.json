@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
+    "build-sass": "node-sass src/sass/main.scss css/style.css -w",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Madhav Vasani",
@@ -16,6 +17,7 @@
   "dependencies": {
     "core-js": "^3.32.1",
     "fractional": "^1.0.0",
+    "node-sass": "^9.0.0",
     "regenerator-runtime": "^0.14.0"
   }
 }
